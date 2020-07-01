@@ -1,8 +1,41 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #383737;
 }
 
-.logo {
+.logo,
+.intro h1 {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    padding-left: 45px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
